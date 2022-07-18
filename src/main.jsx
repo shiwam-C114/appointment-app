@@ -9,13 +9,14 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import AddApp from "./pages/AddApp";
 import  { AuthProvider } from "./context/AuthContext";
+import Nav from "./components/Navbar";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ChakraProvider>
       <BrowserRouter>
       <AuthProvider>
-
+<Nav></Nav>        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
