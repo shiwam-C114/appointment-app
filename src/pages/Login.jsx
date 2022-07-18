@@ -13,6 +13,7 @@ import {
   Input,
 } from "@chakra-ui/react";
 import AuthContext from "../context/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const { isOpen, onOpen } = useDisclosure();
@@ -20,6 +21,7 @@ function Login() {
   const [password, setPassword] = useState("");
   const [isAuth, toggleAuth] = useContext(AuthContext);
   const initialRef = React.useRef(null);
+  const navigate = useNavigate();
 
   function validate() {
     fetch("https://reqres.in/api/login", {
@@ -33,7 +35,7 @@ function Login() {
         data=>{
             if(data.token === "QpwL5tke4Pnpja7X4"){
                 toggleAuth(true)
-                
+                navigate("/appointments");
             }
         }
     )
