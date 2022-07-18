@@ -27,6 +27,7 @@ export default function Nav() {
       <Box margin={"0 0 20px 0"} bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Link to={"/"} >Home</Link>
+          <Link to={"/appointment/add"} >Add</Link>
 
           <Flex alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
