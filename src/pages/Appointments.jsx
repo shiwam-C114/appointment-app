@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Box, Button, Grid, GridItem, Spacer } from "@chakra-ui/react";
+import AuthContext from "../context/AuthContext";
+import Login from "./Login";
 function Appointments() {
   const [data, setData] = useState([]);
+  const [isAuth, toggleAuth] = useContext(AuthContext);
   function getData() {
     fetch("http://localhost:8080/appointment")
       .then((res) => res.json())
@@ -12,7 +15,7 @@ function Appointments() {
   }, []);
 
   return (
-    <div>
+    <div>{isAuth?
       <Grid margin={"10px"} templateColumns="repeat(3, 1fr)" gap={6}>
         {data.map((ele) => (
           <GridItem key={ele.id}>
@@ -29,7 +32,7 @@ function Appointments() {
             </Box>
           </GridItem>
         ))}
-      </Grid>
+      </Grid>:<Login/>}
     </div>
   );
 }
