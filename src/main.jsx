@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
 import App from "./App";
 import Appointments from "./pages/Appointments";
 import Appointment from "./pages/Appointment";
@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import AddApp from "./pages/AddApp";
 import  { AuthProvider } from "./context/AuthContext";
 import Nav from "./components/Navbar";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

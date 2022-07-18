@@ -1,6 +1,6 @@
 import { Button, FormControl, FormLabel, Input } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
 function AddApp() {
   const [form, setForm] = useState({
@@ -11,6 +11,7 @@ function AddApp() {
     date: "",
     gender: "",
   });
+  const navigate = useNavigate()
   async function postData(url = "", data = {}) {
     const response = await fetch(url, {
       method: "POST",
@@ -24,6 +25,9 @@ function AddApp() {
   function submit() {
     postData("http://localhost:8080/appointment/", { ...form }).then((data) => {
       console.log(data);
+      if (data.id) {
+        navigate("/appointments")
+      }
     });
   }
 

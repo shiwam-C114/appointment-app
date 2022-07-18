@@ -13,6 +13,7 @@ function Appointments() {
         .then(setData);
     }
     function handleShowMore(id) {
+      console.log(id);
       nav(`/appointment/${id}`)
     }
 

@@ -10,7 +10,8 @@ function Appointment() {
   const [isAuth, toggleAuth] = useContext(AuthContext);
   const nav = useNavigate();
   function getData() {
-    fetch(`http://localhost:8080/appointment/${id}`)
+      console.log(id);
+      fetch(`http://localhost:8080/appointment/${id}`)
       .then((res) => res.json())
       .then(setData);
   }
@@ -22,6 +23,7 @@ function Appointment() {
     <div>
       {isAuth ? (
         <>
+            <Button onClick={()=>{nav("/appointments")}}> Go back </Button>
           <Center>
             <Box padding={"10px"} border="1px" borderColor="gray.800">
               Name: {data.name} <br />
