@@ -1,163 +1,157 @@
 {
-    "appointment":[{
-        "id": 1,
-        "name": "Brewster",
-        "age": 80,
-        "appointment_details": "bcheese0@wikia.com",
-        "gender": "Polygender",
-        "date": "30/01/2022",
-        "time": "7:15 AM"
-      }, {
-        "id": 2,
-        "name": "Ame",
-        "age": 51,
-        "appointment_details": "adadge1@over-blog.com",
-        "gender": "Female",
-        "date": "30/06/2022",
-        "time": "1:02 AM"
-      }, {
-        "id": 3,
-        "name": "Rudiger",
-        "age": 30,
-        "appointment_details": "roheyne2@arizona.edu",
-        "gender": "Male",
-        "date": "02/09/2021",
-        "time": "11:15 AM"
-      }, {
-        "id": 4,
-        "name": "Mariana",
-        "age": 14,
-        "appointment_details": "mallender3@tamu.edu",
-        "gender": "Female",
-        "date": "27/08/2021",
-        "time": "12:15 AM"
-      }, {
-        "id": 5,
-        "name": "Collie",
-        "age": 46,
-        "appointment_details": "cworster4@hugedomains.com",
-        "gender": "Agender",
-        "date": "13/01/2022",
-        "time": "10:16 AM"
-      }, {
-        "id": 6,
-        "name": "Jard",
-        "age": 74,
-        "appointment_details": "jlampett5@pcworld.com",
-        "gender": "Agender",
-        "date": "30/06/2022",
-        "time": "4:02 AM"
-      }, {
-        "id": 7,
-        "name": "Temple",
-        "age": 29,
-        "appointment_details": "tmosdall6@paypal.com",
-        "gender": "Male",
-        "date": "02/02/2022",
-        "time": "11:44 AM"
-      }, {
-        "id": 8,
-        "name": "Stormy",
-        "age": 91,
-        "appointment_details": "sbuscombe7@ovh.net",
-        "gender": "Bigender",
-        "date": "19/07/2021",
-        "time": "11:29 AM"
-      }, {
-        "id": 9,
-        "name": "Laural",
-        "age": 42,
-        "appointment_details": "lbricksey8@blogs.com",
-        "gender": "Female",
-        "date": "30/10/2021",
-        "time": "11:15 AM"
-      }, {
-        "id": 10,
-        "name": "Nollie",
-        "age": 57,
-        "appointment_details": "nible9@sina.com.cn",
-        "gender": "Female",
-        "date": "03/06/2022",
-        "time": "2:59 AM"
-      }, {
-        "id": 11,
-        "name": "Miles",
-        "age": 5,
-        "appointment_details": "mcollingridgea@unblog.fr",
-        "gender": "Bigender",
-        "date": "28/10/2021",
-        "time": "10:35 AM"
-      }, {
-        "id": 12,
-        "name": "Yvette",
-        "age": 53,
-        "appointment_details": "ytottonb@squarespace.com",
-        "gender": "Female",
-        "date": "21/09/2021",
-        "time": "9:57 AM"
-      }, {
-        "id": 13,
-        "name": "Marylou",
-        "age": 8,
-        "appointment_details": "mrollc@ibm.com",
-        "gender": "Female",
-        "date": "23/04/2022",
-        "time": "12:29 AM"
-      }, {
-        "id": 14,
-        "name": "Northrup",
-        "age": 30,
-        "appointment_details": "nsiddonsd@toplist.cz",
-        "gender": "Male",
-        "date": "08/02/2022",
-        "time": "6:29 AM"
-      }, {
-        "id": 15,
-        "name": "Ceil",
-        "age": 36,
-        "appointment_details": "croloffe@senate.gov",
-        "gender": "Female",
-        "date": "28/01/2022",
-        "time": "2:03 AM"
-      }, {
-        "id": 16,
-        "name": "Lynne",
-        "age": 87,
-        "appointment_details": "lashbornef@etsy.com",
-        "gender": "Female",
-        "date": "27/01/2022",
-        "time": "5:51 AM"
-      }, {
-        "id": 17,
-        "name": "Tymothy",
-        "age": 89,
-        "appointment_details": "tmeineckg@google.co.jp",
-        "gender": "Male",
-        "date": "22/03/2022",
-        "time": "4:23 AM"
-      }, {
-        "id": 18,
-        "name": "Mattie",
-        "age": 43,
-        "appointment_details": "mstreatfieldh@xinhuanet.com",
-        "gender": "Female",
-        "date": "30/06/2022",
-        "time": "3:41 AM"
-      }, {
-        "id": 19,
-        "name": "Amelia",
-        "age": 11,
-        "appointment_details": "avelli@walmart.com",
-        "gender": "Female",
-        "date": "02/02/2022",
-        "time": "2:10 AM"
-      }, {
-        "id": 20,
-        "name": "Bria",
-        "age": 93,
-        "appointment_details": "bmaseyj@symantec.com",
-        "gender": "Female",
-        "date": "01/03/2022",
-        "time": "7:59 AM"
-      }]
+  "appointment": [
+    {
+      "id": 1,
+      "name": "Brewster",
+      "age": 80,
+      "appointment_details": "bcheese0@wikia.com",
+      "gender": "Polygender",
+      "date": "30/01/2022",
+      "time": "7:15 AM"
+    },
+    {
+      "id": 5,
+      "name": "Collie",
+      "age": 46,
+      "appointment_details": "cworster4@hugedomains.com",
+      "gender": "Agender",
+      "date": "13/01/2022",
+      "time": "10:16 AM"
+    },
+    {
+      "id": 6,
+      "name": "Jard",
+      "age": 74,
+      "appointment_details": "jlampett5@pcworld.com",
+      "gender": "Agender",
+      "date": "30/06/2022",
+      "time": "4:02 AM"
+    },
+    {
+      "id": 7,
+      "name": "Temple",
+      "age": 29,
+      "appointment_details": "tmosdall6@paypal.com",
+      "gender": "Male",
+      "date": "02/02/2022",
+      "time": "11:44 AM"
+    },
+    {
+      "id": 8,
+      "name": "Stormy",
+      "age": 91,
+      "appointment_details": "sbuscombe7@ovh.net",
+      "gender": "Bigender",
+      "date": "19/07/2021",
+      "time": "11:29 AM"
+    },
+    {
+      "id": 9,
+      "name": "Laural",
+      "age": 42,
+      "appointment_details": "lbricksey8@blogs.com",
+      "gender": "Female",
+      "date": "30/10/2021",
+      "time": "11:15 AM"
+    },
+    {
+      "id": 10,
+      "name": "Nollie",
+      "age": 57,
+      "appointment_details": "nible9@sina.com.cn",
+      "gender": "Female",
+      "date": "03/06/2022",
+      "time": "2:59 AM"
+    },
+    {
+      "id": 11,
+      "name": "Miles",
+      "age": 5,
+      "appointment_details": "mcollingridgea@unblog.fr",
+      "gender": "Bigender",
+      "date": "28/10/2021",
+      "time": "10:35 AM"
+    },
+    {
+      "id": 12,
+      "name": "Yvette",
+      "age": 53,
+      "appointment_details": "ytottonb@squarespace.com",
+      "gender": "Female",
+      "date": "21/09/2021",
+      "time": "9:57 AM"
+    },
+    {
+      "id": 13,
+      "name": "Marylou",
+      "age": 8,
+      "appointment_details": "mrollc@ibm.com",
+      "gender": "Female",
+      "date": "23/04/2022",
+      "time": "12:29 AM"
+    },
+    {
+      "id": 14,
+      "name": "Northrup",
+      "age": 30,
+      "appointment_details": "nsiddonsd@toplist.cz",
+      "gender": "Male",
+      "date": "08/02/2022",
+      "time": "6:29 AM"
+    },
+    {
+      "id": 15,
+      "name": "Ceil",
+      "age": 36,
+      "appointment_details": "croloffe@senate.gov",
+      "gender": "Female",
+      "date": "28/01/2022",
+      "time": "2:03 AM"
+    },
+    {
+      "id": 16,
+      "name": "Lynne",
+      "age": 87,
+      "appointment_details": "lashbornef@etsy.com",
+      "gender": "Female",
+      "date": "27/01/2022",
+      "time": "5:51 AM"
+    },
+    {
+      "id": 17,
+      "name": "Tymothy",
+      "age": 89,
+      "appointment_details": "tmeineckg@google.co.jp",
+      "gender": "Male",
+      "date": "22/03/2022",
+      "time": "4:23 AM"
+    },
+    {
+      "id": 18,
+      "name": "Mattie",
+      "age": 43,
+      "appointment_details": "mstreatfieldh@xinhuanet.com",
+      "gender": "Female",
+      "date": "30/06/2022",
+      "time": "3:41 AM"
+    },
+    {
+      "id": 19,
+      "name": "Amelia",
+      "age": 11,
+      "appointment_details": "avelli@walmart.com",
+      "gender": "Female",
+      "date": "02/02/2022",
+      "time": "2:10 AM"
+    },
+    {
+      "id": 20,
+      "name": "Bria",
+      "age": 93,
+      "appointment_details": "bmaseyj@symantec.com",
+      "gender": "Female",
+      "date": "01/03/2022",
+      "time": "7:59 AM"
+    }
+  ]
 }
